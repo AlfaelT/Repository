@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/dataContainer"
+    android:layout_width="310dp"
+    android:layout_height="100dp"
+    android:layout_marginLeft="30dp"
+    android:layout_marginRight="20dp"
+    android:layout_marginTop="45dp"
+    android:background="@color/colorPrimaryDark"
+    android:clickable="true"
+    android:orientation="vertical"
+
+    app:cardBackgroundColor="#E4C3BD4A"
+    app:cardCornerRadius="15dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="25dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/frsNameTv"
+            android:layout_width="match_parent"
+            android:layout_height="25dp"
+            android:textAlignment="center" />
+
+        <TextView
+            android:id="@+id/lstNameTv"
+            android:layout_width="match_parent"
+            android:layout_height="25dp"
+            android:textAlignment="center" />
+
+        <TextView
+            android:id="@+id/genderTv"
+            android:layout_width="match_parent"
+            android:layout_height="25dp"
+            android:textAlignment="center" />
+
+        <TextView
+            android:id="@+id/emailTv"
+            android:layout_width="match_parent"
+            android:layout_height="25dp"
+            android:textAlignment="center" />
+
+        <TextView
+            android:id="@+id/mobileTv"
+            android:layout_width="match_parent"
+            android:layout_height="25dp"
+            android:textAlignment="center" />
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>
